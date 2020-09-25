@@ -13555,7 +13555,13 @@ Saving to: ‘../data/aclImdb_v1.tar.gz’
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> review_to_words method does the below list of things to the review:</p>
+<ol>
+<li>Removes html formatting</li>
+<li>tokenizes the words found in the review</li>
+<li>Converts letters into lower case</li>
+<li>Removes all the stop-words which do not add any improvements to the model</li>
+</ol>
 
 </div>
 </div>
